@@ -1,7 +1,0 @@
-my_array<-array(c(5,2,9,7,1,4),dim=c(2,3))
-max_value<-max(my_array)
-min_value<-min(my_array)
-print("Maximum Value : ")
-print(max_value)
-print("Minimum Value : ")
-print(min_value)
