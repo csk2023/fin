@@ -1,5 +1,0 @@
-category<-c("A","B","A","C","B","B")
-category_factor<-factor(category)
-levels(category_factor)<-c("Group A","Group B","Group C")
-print("Modified Factory")
-print(category_factor)
