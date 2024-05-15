@@ -1,0 +1,5 @@
+data(iris)
+str(iris)
+summary(iris)
+boxplot(Sepal.Length~Species, data=iris, main="Box Plot - Sepal Length",xlab="Species",ylab="Sepal Length")
+plot(Petal.Length~Petal.Width,data=iris,main="Scatter Plot - Petal Length vs. Petal Width", xlab="Petal Width, ylab=Petal Length")

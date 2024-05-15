@@ -1,0 +1,5 @@
+my_list<-list(name="John",age=30,city="New York")
+print("List Elements : ")
+print(my_list$name)
+print(my_list$age)
+print(my_list$city)
