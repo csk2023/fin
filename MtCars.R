@@ -1,0 +1,5 @@
+data(mtcars)
+str(mtcars)
+summary(mtcars)
+hist(mtcars$mpg, main="Histogram - MPG", xlab="MPG", ylab="Frequency", col="lightblue")
+plot(mpg~hp,data=mtcars,main="Scatter Plot - Horsepower vs. MPG", xlab="Horsepower",ylab="MPG")

@@ -1,0 +1,5 @@
+data(ChickWeight)
+str(ChickWeight)
+summary(ChickWeight)
+plot(weight~Time, data=ChickWeight, type="l", main="Chick Growth over Time", xlab="Time",ylab="Weight")
+boxplot(weight~Diet,data=ChickWeight,main="Box Plot - Final Weights by Diet", xlab="Diet",ylab="Final Weight")

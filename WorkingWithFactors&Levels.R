@@ -1,0 +1,7 @@
+category<-c("A","B","A","C","B","B")
+category_factor<-factor(category)
+print("original Levels : ")
+print(levels(category_factor))
+category_factor<-factor(category_factor,levels=c("B","A","C"))
+print("Modiefied Levels : ")
+print(levels(category_factor))
